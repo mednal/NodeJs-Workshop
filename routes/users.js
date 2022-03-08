@@ -39,7 +39,7 @@ data.forEach(data=>{
 
 if(data.Email==email&&data.Password==password){
   res.redirect("login.html")
-  console.log("aaaaaaaaaaa")
+  console.log("")
 }
 else{
   res.redirect('/')
